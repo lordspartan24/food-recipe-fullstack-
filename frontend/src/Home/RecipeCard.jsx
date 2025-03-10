@@ -8,7 +8,7 @@ function RecipeCard() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/recipes/${id}`)
+      .get(`https://recipecorner-4737.onrender.com/recipes/${id}`)
       .then((response) => {
         console.log("Fetched data:", response.data);
         setRecipe(response.data);
