@@ -61,7 +61,7 @@ function Create() {
     console.log("FormData being sent:", [...formattedData.entries()]); // Debugging
 
     try {
-      const response = await axios.post('http://localhost:3000/recipes', formattedData, {
+      const response = await axios.post('https://recipecorner-4737.onrender.com/recipes', formattedData, {
         headers: { 
           "Authorization": `Bearer ${token}`,
           "Content-Type": "multipart/form-data"
