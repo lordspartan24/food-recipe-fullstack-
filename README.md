@@ -1,8 +1,8 @@
 RECIPE MANAGER using MERN stack
-FRONTEND
+FRONTEND          
 to run the frontend code first navigate to frontend folder and run npm run dev
 
-BACKEND
+BACKEND      
 to run the frontend code first navigate to frontend folder and run npm start
 
 Some key things to change to make it work
